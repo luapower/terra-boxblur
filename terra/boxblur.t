@@ -223,10 +223,4 @@ function Blur:build()
 	}
 end
 
-if not ... then
-	pf'Compiling...'
-	Blur:build()
-	pfn'OK'
-end
-
 return _M
