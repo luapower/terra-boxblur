@@ -6,8 +6,7 @@ setfenv(1, require'terra.low'.module())
 
 local bitmap = require'terra.bitmap'
 
-includepath'csrc/boxblur'
-includepath'../csrc/boxblur' --TODO: this is wrong!
+includepath'boxblur'
 include'boxblur.h'
 linklibrary'boxblur'
 
